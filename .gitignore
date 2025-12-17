@@ -1,4 +1,6 @@
-data/
+data/*
+!data/README.md
+!data/sample/
 models/
 checkpoints/
 __pycache__/
