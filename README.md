@@ -121,7 +121,10 @@ Both metrics were used to analyze **quantitative performance before and after au
 
 ---
 
-## 📈 Results Summary
+## 📊 Results Summary
+Sample qualitative and quantitative results are provided in the `results/` folder,
+demonstrating improvement in visibility and image quality after dehazing.
+
 
 ### 🔸 Key Observations
 
