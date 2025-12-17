@@ -109,38 +109,6 @@ Both metrics were used to analyze **quantitative performance before and after au
 
 ---
 
-## 📁 Repository Structure
-
-```
-image-dehazing-pix2pix/
-├── src/
-│   ├── model.py
-│   ├── train.py
-│   ├── dataset.py
-│   ├── metrics.py
-│   └── utils.py
-├── data/
-│   └── README.md
-├── results/
-│   └── sample_outputs/
-├── README.md
-└── .gitignore
-```
-
----
-
-## ▶️ How to Run (Optional)
-
-```bash
-pip install -r requirements.txt
-python src/train.py
-python src/test.py
-```
-
-📌 GPU training was used during experimentation.
-
----
-
 ## 🛠️ Technologies Used
 
 * Python
@@ -169,21 +137,6 @@ python src/test.py
 * Transformer-based dehazing architectures
 * Domain adaptation for real satellite imagery
 * Integration with downstream tasks (object detection, segmentation)
-
----
-
-## 🏫 Internship Details
-
-* **Internship Domain:** Artificial Intelligence & Computer Vision
-* **Institution:** School of Artificial Intelligence, Amrita Vishwa Vidyapeetham
-* **Duration:** January 2025 – March 2025
-* **Author:** Avanthika K S
-
----
-
-## 📜 Acknowledgment
-
-I sincerely thank the faculty and research mentors at **Amrita Vishwa Vidyapeetham, Coimbatore**, for their guidance, infrastructure support, and technical mentorship throughout this internship .
 
 ---
 
