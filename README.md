@@ -193,12 +193,3 @@ This repository is intended for **academic, research, and learning purposes**.
 Feel free to explore, extend, or adapt the methodology.
 
 ---
-
-### ✅ Next (If You Want)
-
-* I can **shorten this for ATS**
-* Add **badges + visuals**
-* Convert this into a **paper-style GitHub repo**
-* Review your **actual uploaded repo**
-
-Just tell me 👍
