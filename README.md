@@ -12,6 +12,9 @@ Haze removal (also known as *image dehazing*) is a fundamental problem in comput
 
 This project implements **deep learning–based image dehazing techniques**, focusing on **CNN and GAN-based architectures** to enhance visual quality and restore structural details from hazy images. The work was carried out as part of an **internship at the School of Artificial Intelligence, Amrita Vishwa Vidyapeetham** .
 
+A custom dataset was built by preprocessing, augmenting, and concatenating O-HAZE, NH-HAZE, and Dense-Haze images obtained from Kaggle.
+
+
 ---
 
 ## 🎯 Objectives
@@ -21,6 +24,40 @@ This project implements **deep learning–based image dehazing techniques**, foc
 * Analyze overfitting and improve generalization using **data augmentation**
 * Evaluate performance using **PSNR** and **SSIM** metrics
 * Perform **cross-dataset testing** to assess real-world robustness
+
+---
+
+---
+
+# 🏠 2. UPDATED MAIN `README.md` (Front Page Update)
+
+👉 This goes in the **root `README.md`** of your repository.  
+You can **replace or merge** with your existing README.
+
+---
+
+## 📂 Dataset Description
+
+This project uses a **custom processed image dehazing dataset** created by
+combining multiple benchmark haze datasets obtained from Kaggle.
+
+The dataset includes images from:
+- **O-HAZE**
+- **NH-HAZE**
+- **Dense-Haze**
+
+The original datasets were **preprocessed, augmented, and concatenated**
+to create paired samples suitable for supervised deep learning–based
+image dehazing.
+
+### Dataset Highlights
+- Multi-dataset training for better generalization
+- Data augmentation to reduce overfitting
+- Concatenated hazy–clear image pairs for image-to-image translation models
+
+📌 The full dataset is **not included** in this repository due to size and licensing
+restrictions.  
+Detailed dataset preparation steps are available in [`data/README.md`](data/README.md).
 
 ---
 
